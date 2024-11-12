@@ -1,3 +1,6 @@
+import './appfooter.css'
+
+
 export default function appFooter() {
 
     // logic
