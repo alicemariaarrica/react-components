@@ -4,16 +4,31 @@
   align-items: center;
   justify-content: center;
   min-height: 100vh;
-  background-color: #ef5d0e;
+  background-color: #f0f0f0;
   gap: 20px;
   padding: 20px;
 }
 
-
+h1 {
+  font-size: 1.5rem;
+  color: #333;
+}
 
 .imgcard {
   width: 300px;
   background-color: white;
   border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+}
+
+.description h3 {
+  margin: 0;
+  font-size: 1.25rem;
+}
+
+.description p {
+  font-size: 0.875rem;
+  color: #555;
+  margin: 8px 0 16px;
 }

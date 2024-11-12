@@ -5,3 +5,8 @@
     padding: 16px;
     font-size: 0.875rem;
 }
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+}
