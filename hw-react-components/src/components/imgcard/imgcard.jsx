@@ -9,7 +9,7 @@ export default function CreateImgCard() {
             <div className="description">
                 <h3>My favorite Disney movie</h3>
                 <p>Descrizione</p>
-                <Btn /> {Btn}
+                <Btn />
             </div>
         </div>
     );

@@ -1,12 +1,10 @@
-import style from "../bottone/btn.css"
 
-export default function button() {
+import './btn.css';
 
+export default function Btn() {
     return (
-
         <div className="btn-container">
-            <button className={style.btn}>Leggi di più</button>
-
-
-            )
+            <button className="btn">Leggi di più</button>
+        </div>
+    );
 }

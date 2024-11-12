@@ -1,4 +1,10 @@
 .btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
     background-color: #d4a529;
     color: white;
     border: none;
