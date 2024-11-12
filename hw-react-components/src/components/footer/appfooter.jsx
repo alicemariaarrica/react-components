@@ -1,17 +1,14 @@
-import './appfooter.css'
 
+import './footer.css';
 
-export default function appFooter() {
+export default function Footer() {
+    const footerText = "lorem ipsum etc etc";
 
-    // logic
-    const footer = "lorem ipsum etc etc"
-
-    // markup (JSX)
     return (
-        <footer>
+        <footer className="footer">
             <div className="container">
-                <p>{footer}</p>
+                <p>{footerText}</p>
             </div>
         </footer>
-    )
+    );
 }
