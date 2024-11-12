@@ -1,0 +1,9 @@
+.btn-container {
+    background-color: #d4a529;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 0.875rem;
+    border-radius: 4px;
+}
