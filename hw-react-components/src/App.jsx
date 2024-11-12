@@ -1,11 +1,7 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
 
-import ImgCard from './components/imgcard/imgcard.js';
-
-import Footer from './components/footer/footer.jsx';
+import './App.css';
+import ImgCard from './components/imgcard/ImgCard';
+import Footer from './components/footer/Footer';
 
 const App = () => {
   return (
